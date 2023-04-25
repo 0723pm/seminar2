@@ -3,16 +3,6 @@
 
 
 
-// double[] array = new double[n];
-// Random random = new Random();
-// for (int i = 0; i < array.Length; i++)
-// array[i] = random.Next(-100, 100) + random.NextDouble();
-
-
-
-
-
-
 Console.Write("Введите длину массива: ");
 int arr = Convert.ToInt32(Console.ReadLine());
 double[] randomArray = new double[arr];
