@@ -6,7 +6,7 @@
 // 1 2 3 4
 // 2 3 4 5
 
-int[,] CreateMatrix(int rows, int columns, int min, int max)
+int[,] CreateMatrix(int rows, int columns)
 {
     // 0 1
     int[,] matrix = new int[rows, columns]; // 3, 4
@@ -34,5 +34,5 @@ void PrintMatrix(int[,] matrix)
     }
 }
 
-int[,] array2d = CreateMatrix(3, 4, -100, 100);
+int[,] array2d = CreateMatrix(3, 4);
 PrintMatrix(array2d);
