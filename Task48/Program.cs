@@ -8,7 +8,6 @@
 
 int[,] CreateMatrix(int rows, int columns)
 {
-    // 0 1
     int[,] matrix = new int[rows, columns]; // 3, 4
 
     for (int i = 0; i < matrix.GetLength(0); i++) //matrix.GetLength(0) = 3
