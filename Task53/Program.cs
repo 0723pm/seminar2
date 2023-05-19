@@ -1,4 +1,4 @@
-﻿// Задача 53: Задайте двумерный массив. Напишите программу,
+﻿/ Задача 53: Задайте двумерный массив. Напишите программу,
 // которая поменяет местами первую и последнюю строку
 // массива.
 
@@ -34,10 +34,9 @@ void SwapPosition(int[,] matrix)
 {
     int lastPosition = matrix.GetLength(0) - 1;
     int firstPosition = 0;
-    int temp = 0;
     for (int j = 0; j < matrix.GetLength(1); j++)
     {
-        temp = matrix[firstPosition, j];
+        int temp = matrix[firstPosition, j];
         matrix[firstPosition, j] = matrix[lastPosition, j];
         matrix[lastPosition, j] = temp;
     }
