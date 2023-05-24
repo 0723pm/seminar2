@@ -7,21 +7,8 @@ int numberM = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе целое положительное число");
 int numberN = Convert.ToInt32(Console.ReadLine());
 
-SumMN(numberM, numberN);
-
-void SumMN (int numM, int numN)
-{
-    Console.Write(SumOfNumbers(numM - 1, numN));
-}
-
-// int sumDigits = SumDigits(number);
-// Console.WriteLine(sumDigits);
-
-// int SumDigits(int num)
-// {
-//     if (num == 0) return 0;
-//     else return num % 10 + SumDigits(num / 10);
-// }
+int sumOfNumbers = SumOfNumbers(numberM - 1, numberN);
+Console.WriteLine(sumOfNumbers);
 
 int SumOfNumbers(int numM, int numN)
 {
