@@ -14,6 +14,15 @@ void SumMN (int numM, int numN)
     Console.Write(SumOfNumbers(numM - 1, numN));
 }
 
+// int sumDigits = SumDigits(number);
+// Console.WriteLine(sumDigits);
+
+// int SumDigits(int num)
+// {
+//     if (num == 0) return 0;
+//     else return num % 10 + SumDigits(num / 10);
+// }
+
 int SumOfNumbers(int numM, int numN)
 {
     int result = numM;
